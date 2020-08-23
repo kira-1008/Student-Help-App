@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorBlue1">#0B3184</color> <!--St Patrick Blue-->
+<color name="colorBlue2">#4E97D0</color> <!--Carolina blue-->
+<color name="colorPink">#DA4469</color> <!--Cerise color-->
+<color name="colorDark">#453D36</color>  <!--Dark lava color -->
+<color name="colorBackground">#FFFAFF</color> <!--Magnolia color for all backgrounds -->
+<color name="colorWhite">#FFFFFF</color> <!--White color for Text -->
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.studentshelpapp.ui.home.home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/home" />
+
+    <fragment
+        android:id="@+id/nav_freshers"
+        android:name="com.example.studentshelpapp.ui.freshers.freshers"
+        android:label="Fresher's Section"
+        tools:layout="@layout/freshers" />
+
+    <fragment
+        android:id="@+id/nav_notes"
+        android:name="com.example.studentshelpapp.ui.notes.notes"
+        android:label="Notes"
+        tools:layout="@layout/notes" />
+
+    <fragment
+        android:id="@+id/nav_buynsell"
+        android:name="com.example.studentshelpapp.ui.buynsell.buynsell"
+        android:label="Buy and Sell"
+        tools:layout="@layout/buynsell" />
+
+    <fragment
+        android:id="@+id/nav_cpndev"
+        android:name="com.example.studentshelpapp.ui.cpndev.cpndev"
+        android:label="CP and Dev resources"
+        tools:layout="@layout/cpndev" />
+
+
+</navigation>

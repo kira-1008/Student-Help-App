@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeicon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_freshers"
+            android:icon="@drawable/freshersicon"
+            android:title="Fresher's Section" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/notesicon"
+            android:title="Notes" />
+        <item
+            android:id="@+id/nav_buynsell"
+            android:icon="@drawable/buynsellicon"
+            android:title="Buy and Sell" />
+        <item
+            android:id="@+id/nav_cpndev"
+            android:icon="@drawable/cpndevicon"
+            android:title="Cp and Dev resources" />
+    </group>
+</menu>
