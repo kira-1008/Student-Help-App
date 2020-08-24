@@ -19,4 +19,12 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_foods">foods</string>
+    <string name="tab_text_1">Within Campus</string>
+    <string name="tab_text_2">Outside Campus</string>
+    <string name="tab_text_3">Stationary</string>
+    <string name="tab_text_4">Pharmacy</string>
+    <string name="tab_text_5">Others</string>
+    <string name="title_activity_needs">needs</string>
+
 </resources>
