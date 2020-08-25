@@ -97,6 +97,7 @@ attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
 attr alertDialogTheme
+attr alignmentMode
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
@@ -240,6 +241,8 @@ attr colorSecondary
 attr colorSecondaryVariant
 attr colorSurface
 attr colorSwitchThumbNormal
+attr columnCount
+attr columnOrderPreserved
 attr commitIcon
 attr constraintSet
 attr constraint_referenced_ids
@@ -444,6 +447,9 @@ attr layout_anchorGravity
 attr layout_behavior
 attr layout_collapseMode
 attr layout_collapseParallaxMultiplier
+attr layout_column
+attr layout_columnSpan
+attr layout_columnWeight
 attr layout_constrainedHeight
 attr layout_constrainedWidth
 attr layout_constraintBaseline_creator
@@ -494,9 +500,13 @@ attr layout_goneMarginLeft
 attr layout_goneMarginRight
 attr layout_goneMarginStart
 attr layout_goneMarginTop
+attr layout_gravity
 attr layout_insetEdge
 attr layout_keyline
 attr layout_optimizationLevel
+attr layout_row
+attr layout_rowSpan
+attr layout_rowWeight
 attr layout_scrollFlags
 attr layout_scrollInterpolator
 attr liftOnScroll
@@ -558,6 +568,7 @@ attr navigationViewStyle
 attr nullable
 attr number
 attr numericModifiers
+attr orientation
 attr overlapAnchor
 attr paddingBottomNoButtons
 attr paddingBottomSystemWindowInsets
@@ -602,6 +613,8 @@ attr ratingBarStyleSmall
 attr recyclerViewStyle
 attr reverseLayout
 attr rippleColor
+attr rowCount
+attr rowOrderPreserved
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -771,6 +784,7 @@ attr transitionShapeAppearance
 attr ttcIndex
 attr uri
 attr useCompatPadding
+attr useDefaultMargins
 attr useMaterialThemeColors
 attr values
 attr verticalOffset
@@ -1082,6 +1096,8 @@ dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
+dimen appbar_padding
+dimen appbar_padding_top
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -1095,6 +1111,7 @@ dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen def_drawer_elevation
 dimen default_dimension
+dimen default_gap
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -1459,6 +1476,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable festss
+drawable food
 drawable freshersicon
 drawable homeicon
 drawable ic_menu_camera
@@ -1471,6 +1490,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable map
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1488,6 +1508,8 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable need
+drawable needs
 drawable notesicon
 drawable notification_action_background
 drawable notification_bg
@@ -1501,6 +1523,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable roundedcorner
 drawable side_nav_bar
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1574,8 +1597,12 @@ id actions
 id activity_chooser_view_content
 id add
 id alertTitle
+id alignBounds
+id alignMargins
 id all
 id always
+id appBarLayout
+id appBarLayout2
 id async
 id auto
 id barrier
@@ -1604,6 +1631,7 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id confirm_button
+id constraintLayout
 id container
 id content
 id contentPanel
@@ -1623,6 +1651,7 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id dist_s
 id drawer_layout
 id dropdown_menu
 id edit_query
@@ -1633,7 +1662,9 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id fade
+id fest_s
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1641,6 +1672,7 @@ id filled
 id fitToContents
 id fixed
 id floating
+id food_s
 id forever
 id fragment_container_view_tag
 id ghost_view
@@ -1651,6 +1683,7 @@ id groups
 id hideable
 id home
 id homeAsUp
+id horizontal
 id icon
 id icon_group
 id ifRoom
@@ -1666,7 +1699,9 @@ id line1
 id line3
 id listMode
 id list_item
+id listview
 id logo
+id map_s
 id masked
 id media_actions
 id message
@@ -1713,6 +1748,7 @@ id nav_host_fragment_container
 id nav_notes
 id nav_view
 id navigation_header_container
+id need_s
 id never
 id noScroll
 id none
@@ -1735,6 +1771,8 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id rel
+id restname_s
 id right
 id right_icon
 id right_side
@@ -1786,6 +1824,7 @@ id stretch
 id submenuarrow
 id submit_area
 id tabMode
+id tabs
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -1833,7 +1872,9 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id vertical
 id view_offset_helper
+id view_pager
 id visible
 id visible_removing_fragment_view_tag
 id withText
@@ -1902,7 +1943,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_foods
 layout activity_main
+layout activity_needs
 layout activity_splash
 layout app_bar_main
 layout buynsell
@@ -1910,6 +1953,8 @@ layout content_main
 layout content_splash
 layout cpndev
 layout custom_dialog
+layout customlayout
+layout customlayout2
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1926,9 +1971,12 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_first
+layout fragment_foods
+layout fragment_needs
 layout fragment_second
 layout freshers
 layout home
+layout inside
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -1974,9 +2022,13 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout others
+layout outside
+layout pharmacy
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout stationary
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
@@ -2102,6 +2154,13 @@ string previous
 string search_menu_title
 string second_fragment_label
 string status_bar_notification_info_overflow
+string tab_text_1
+string tab_text_2
+string tab_text_3
+string tab_text_4
+string tab_text_5
+string title_activity_foods
+string title_activity_needs
 string title_activity_splash
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -2856,6 +2915,8 @@ styleable FragmentContainerView android_name android_tag
 styleable FragmentNavigator android_name
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable GridLayout alignmentMode columnCount columnOrderPreserved orientation rowCount rowOrderPreserved useDefaultMargins
+styleable GridLayout_Layout android_layout_width android_layout_height android_layout_margin android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom layout_column layout_columnSpan layout_columnWeight layout_gravity layout_row layout_rowSpan layout_rowWeight
 styleable Insets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets
 styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
