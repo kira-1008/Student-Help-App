@@ -81,6 +81,7 @@ public class freshers extends Fragment {
     }
     public void openFest()
     {
-
+        Intent intent = new Intent(getActivity(), fests.class);
+        startActivity(intent);
     }
 }

@@ -20,6 +20,10 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.example.studentshelpapp.ui.freshers.fests"
+            android:label="@string/title_activity_fests"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name="com.example.studentshelpapp.ui.freshers.needs"
             android:label="@string/title_activity_needs"
             android:theme="@style/AppTheme.NoActionBar" />

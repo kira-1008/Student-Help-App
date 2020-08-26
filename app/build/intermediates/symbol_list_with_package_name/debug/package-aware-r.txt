@@ -1372,6 +1372,7 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+drawable aagman
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -1477,6 +1478,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable festss
+drawable fireworks
+drawable fmc
 drawable food
 drawable freshersicon
 drawable homeicon
@@ -1490,6 +1493,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ky
 drawable map
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1525,6 +1529,10 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable roundedcorner
 drawable side_nav_bar
+drawable spardha
+drawable styling
+drawable styling2
+drawable technex
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1688,6 +1696,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
 id info
 id invisible
 id italic
@@ -1797,6 +1806,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id section_label
 id select_dialog_listview
 id selected
 id shortcut
@@ -1844,6 +1854,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
+id textView4
+id textView5
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1943,6 +1956,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_fests
 layout activity_foods
 layout activity_main
 layout activity_needs
@@ -1955,6 +1969,7 @@ layout cpndev
 layout custom_dialog
 layout customlayout
 layout customlayout2
+layout customlayout3
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1970,6 +1985,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout festdesc
+layout fragment_fests
 layout fragment_first
 layout fragment_foods
 layout fragment_needs
@@ -2159,6 +2176,7 @@ string tab_text_2
 string tab_text_3
 string tab_text_4
 string tab_text_5
+string title_activity_fests
 string title_activity_foods
 string title_activity_needs
 string title_activity_splash
