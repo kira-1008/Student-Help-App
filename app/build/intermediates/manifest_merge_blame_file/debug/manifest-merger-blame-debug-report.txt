@@ -11,7 +11,7 @@
 9-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:5:5-34:19
+11-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:5:5-42:19
 12        android:allowBackup="true"
 12-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -26,63 +26,79 @@
 18        android:supportsRtl="true"
 18-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:11:9-40
+20        android:theme="@style/AppTheme.NoActionBar" >
+20-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:11:9-52
 21        <activity
 21-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:12:9-15:68
-22            android:name="com.example.studentshelpapp.ui.freshers.fests"
-22-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:13:13-46
-23            android:label="@string/title_activity_fests"
-23-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:14:13-57
+22            android:name="com.example.studentshelpapp.ui.notes.note"
+22-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:13:13-42
+23            android:label="note"
+23-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:14:13-33
 24            android:theme="@style/AppTheme.NoActionBar" />
 24-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:15:13-56
 25        <activity
-25-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:16:9-19:59
-26            android:name="com.example.studentshelpapp.ui.freshers.needs"
-26-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:17:13-46
-27            android:label="@string/title_activity_needs"
-27-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:18:13-57
+25-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:16:9-19:68
+26            android:name="com.example.studentshelpapp.ui.notes.book"
+26-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:17:13-42
+27            android:label="note"
+27-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:18:13-33
 28            android:theme="@style/AppTheme.NoActionBar" />
 28-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:19:13-56
 29        <activity
-29-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:20:9-23:59
-30            android:name="com.example.studentshelpapp.ui.freshers.foods"
+29-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:20:9-23:68
+30            android:name="com.example.studentshelpapp.ui.freshers.fests"
 30-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:21:13-46
-31            android:label="@string/title_activity_foods"
+31            android:label="@string/title_activity_fests"
 31-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:22:13-57
 32            android:theme="@style/AppTheme.NoActionBar" />
 32-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:23:13-56
-33        <activity android:name="com.example.studentshelpapp.MainActivity" />
-33-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:24:9-50
-33-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:24:19-47
-34        <activity
-34-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:25:9-33:20
-35            android:name="com.example.studentshelpapp.SplashActivity"
-35-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:26:13-43
-36            android:theme="@style/Theme.AppCompat.NoActionBar" >
-36-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:27:13-63
-37            <intent-filter>
-37-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:28:13-32:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:29:17-69
-38-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:29:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:31:17-77
-40-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:31:27-74
-41            </intent-filter>
-42        </activity>
-43
-44        <provider
-44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-45            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-45-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-46            android:authorities="com.example.studentshelpapp.lifecycle-process"
-46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-47            android:exported="false"
-47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-48            android:multiprocess="true" />
-48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-49    </application>
-50
-51</manifest>
+33        <activity
+33-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:24:9-27:59
+34            android:name="com.example.studentshelpapp.ui.freshers.needs"
+34-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:25:13-46
+35            android:label="@string/title_activity_needs"
+35-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:26:13-57
+36            android:theme="@style/AppTheme.NoActionBar" />
+36-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:27:13-56
+37        <activity
+37-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:28:9-31:59
+38            android:name="com.example.studentshelpapp.ui.freshers.foods"
+38-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:29:13-46
+39            android:label="@string/title_activity_foods"
+39-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:30:13-57
+40            android:theme="@style/AppTheme.NoActionBar" />
+40-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:31:13-56
+41        <activity android:name="com.example.studentshelpapp.MainActivity" />
+41-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:32:9-50
+41-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:32:19-47
+42        <activity
+42-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:33:9-41:20
+43            android:name="com.example.studentshelpapp.SplashActivity"
+43-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:34:13-43
+44            android:theme="@style/Theme.AppCompat.NoActionBar" >
+44-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:35:13-63
+45            <intent-filter>
+45-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:36:13-40:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:37:17-69
+46-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:37:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:39:17-77
+48-->C:\Users\ACER\AndroidStudioProjects\Student-Help-App-2\app\src\main\AndroidManifest.xml:39:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+53            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+54            android:authorities="com.example.studentshelpapp.lifecycle-process"
+54-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+55            android:exported="false"
+55-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+56            android:multiprocess="true" />
+56-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+57    </application>
+58
+59</manifest>

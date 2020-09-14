@@ -6,5 +6,8 @@
 <color name="colorDark">#453D36</color>  <!--Dark lava color -->
 <color name="colorBackground">#FFFAFF</color> <!--Magnolia color for all backgrounds -->
 <color name="colorWhite">#FFFFFF</color> <!--White color for Text -->
-
+    <color name="color1">#DA4469</color> <!--St Patrick Blue-->
+    <color name="color2">#453D36</color> <!--Carolina blue-->
+    <color name="color3">#4E97D0</color> <!--Cerise color-->
+    <color name="color4">#0B3184</color>  <!--Dark lava color -->
 </resources>

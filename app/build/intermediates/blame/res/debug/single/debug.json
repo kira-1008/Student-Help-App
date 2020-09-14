@@ -20,12 +20,20 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\cpndevicon.png"
     },
     {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buynsell.jpg.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\buynsell.jpg"
+    },
+    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_aagman.jpg.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\aagman.jpg"
     },
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_festdesc.xml.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\layout\\festdesc.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sticker.png.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\sticker.png"
     },
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spardha.jpg.flat",
@@ -42,6 +50,10 @@
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\anim_splashanimation.xml.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\anim\\splashanimation.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round.xml.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\round.xml"
     },
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_splash.xml.flat",
@@ -80,6 +92,10 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\mipmap-xhdpi\\logo.png"
     },
     {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_notedesc.xml.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\layout\\notedesc.xml"
+    },
+    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_food.png.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\food.png"
     },
@@ -102,6 +118,10 @@
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notes.jpg.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\notes.jpg"
     },
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
@@ -128,6 +148,10 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\homeicon.png"
     },
     {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_poster.png.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\poster.png"
+    },
+    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_logo.png.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\mipmap-mdpi\\logo.png"
     },
@@ -140,8 +164,20 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\notesicon.xml"
     },
     {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_brochure.png.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\brochure.png"
+    },
+    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_buynsellicon.png.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\buynsellicon.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cpndev.jpeg.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\cpndev.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_styling3.xml.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\styling3.xml"
     },
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_logo_round.png.flat",
@@ -172,6 +208,10 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\freshersicon.png"
     },
     {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_note.xml.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\layout\\note.xml"
+    },
+    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_logo_round.png.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\mipmap-hdpi\\logo_round.png"
     },
@@ -186,6 +226,10 @@
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_note.xml.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\layout\\activity_note.xml"
     },
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_buynsellicon.xml.flat",
@@ -208,6 +252,10 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\map.png"
     },
     {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_namecard.png.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\namecard.png"
+    },
+    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cpndevicon.png.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\cpndevicon.png"
     },
@@ -218,6 +266,10 @@
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_logo_round.png.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\mipmap-xxxhdpi\\logo_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_customlayout4.xml.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\layout\\customlayout4.xml"
     },
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_customlayout2.xml.flat",
@@ -232,6 +284,10 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\cpndevicon.png"
     },
     {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fresher.png.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\fresher.png"
+    },
+    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ky.jpg.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\ky.jpg"
     },
@@ -242,6 +298,10 @@
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_logo_foreground.png.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_item.xml.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\layout\\item.xml"
     },
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_styling.xml.flat",
@@ -316,6 +376,10 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\fmc.png"
     },
     {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_book.xml.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\layout\\book.xml"
+    },
+    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fireworks.jpg.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\fireworks.jpg"
     },
@@ -364,8 +428,20 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\mipmap-xhdpi\\logo_round.png"
     },
     {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_item2.xml.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\layout\\item2.xml"
+    },
+    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_logo.png.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hndwrttennotes.jpg.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\hndwrttennotes.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_basicneeds.jpg.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\basicneeds.jpg"
     },
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_technex.jpg.flat",
@@ -394,5 +470,9 @@
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\layout_pharmacy.xml.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\layout\\pharmacy.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_refresher.jpg.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\Student-Help-App-2\\app\\src\\main\\res\\drawable\\refresher.jpg"
     }
 ]
