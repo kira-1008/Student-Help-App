@@ -13,7 +13,7 @@
         android:background="#4E97D0"
 
         <TextView
-            android:id="@+id/restname_s"
+            android:id="@+id/subject"
             android:layout_width="match_parent"
             android:layout_height="81dp"
             android:layout_marginTop="5dp"

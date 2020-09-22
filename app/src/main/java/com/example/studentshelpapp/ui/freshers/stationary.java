@@ -43,7 +43,7 @@ public class stationary extends Fragment{
         @Override
         public View getView(int i, View view, ViewGroup viewGroup) {
             view = getLayoutInflater().inflate(R.layout.customlayout2,null);
-            TextView restname_s = (TextView)view.findViewById(R.id.restname_s);
+            TextView restname_s = (TextView)view.findViewById(R.id.subject);
             restname_s.setText(Name[i]);
             return view;
         }

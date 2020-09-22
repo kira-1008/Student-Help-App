@@ -1,5 +1,6 @@
 package com.example.studentshelpapp;
 
+import android.animation.ArgbEvaluator;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
@@ -15,6 +16,11 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager2.widget.ViewPager2;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 

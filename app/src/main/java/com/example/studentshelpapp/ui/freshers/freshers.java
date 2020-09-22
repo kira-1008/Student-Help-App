@@ -35,14 +35,14 @@ public class freshers extends Fragment {
                 openFood();
             }
         });
-        map_s = (Button) view.findViewById(R.id.map_s);
+        map_s = (Button) view.findViewById(R.id.note_s);
         map_s.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openMap();
             }
         });
-        need_s = (Button) view.findViewById(R.id.need_s);
+        need_s = (Button) view.findViewById(R.id.book_s);
         need_s.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
