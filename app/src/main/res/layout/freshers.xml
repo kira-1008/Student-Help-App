@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/map_s"
+            android:id="@+id/note_s"
             android:layout_width="92dp"
             android:layout_height="8dp"
             android:layout_margin="5dp"
@@ -32,7 +32,7 @@
             app:layout_rowWeight="1" />
 
         <Button
-            android:id="@+id/need_s"
+            android:id="@+id/book_s"
             android:layout_width="92dp"
             android:layout_height="10dp"
             android:layout_margin="5dp"

@@ -4,6 +4,10 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\content_splash.xml"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_note.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\note.xml"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_buynsellicon.png.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\buynsellicon.png"
     },
@@ -28,6 +32,10 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\customlayout3.xml"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_notedesc.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\notedesc.xml"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_cpndevicon.png.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\cpndevicon.png"
     },
@@ -36,12 +44,12 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\cpndevicon.png"
     },
     {
-        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_logo_round.png.flat",
-        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_round.png"
-    },
-    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cpndevicon.png.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\cpndevicon.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_logo_round.png.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_round.png"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_pharmacy.xml.flat",
@@ -66,6 +74,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_buynsellicon.png.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\buynsellicon.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_item2.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\item2.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_logo_foreground.png.flat",
@@ -96,6 +108,14 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\notesicon.png"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_basicneeds.jpg.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\basicneeds.jpg"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_customlayout4.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\customlayout4.xml"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ky.jpg.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\ky.jpg"
     },
@@ -110,6 +130,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_myorders.png.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\myorders.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_item.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\item.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_freshersicon.png.flat",
@@ -132,12 +156,20 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\aagman.jpg"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buynsell.jpg.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\buynsell.jpg"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_freshers.xml.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\freshers.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_buynsellicon.png.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\buynsellicon.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hndwrttennotes.jpg.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\hndwrttennotes.jpg"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_notesicon.png.flat",
@@ -150,6 +182,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_note.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\activity_note.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_logo.png.flat",
@@ -212,6 +248,10 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\fragment_fests.xml"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_namecard.png.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\namecard.png"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cross.png.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\cross.png"
     },
@@ -224,6 +264,10 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\cross.png"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_brochure.png.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\brochure.png"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_notes.xml.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\notes.xml"
     },
@@ -234,6 +278,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_freshersicon.png.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\freshersicon.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_styling3.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\styling3.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_homeicon.png.flat",
@@ -300,6 +348,10 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\activity_my_ads.xml"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sticker.png.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\sticker.png"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_notesicon.png.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\notesicon.png"
     },
@@ -320,8 +372,16 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cpndev.jpeg.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\cpndev.jpeg"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_single_ad_item.xml.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\single_ad_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_poster.png.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\poster.png"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_homeicon.png.flat",
@@ -346,6 +406,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notes.jpg.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\notes.jpg"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_logo_round.png.flat",
@@ -400,6 +464,10 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\inside.xml"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_book.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\book.xml"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_purchasing.jpg.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\purchasing.jpg"
     },
@@ -452,6 +520,10 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\logo_foreground.png"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fresher.png.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\fresher.png"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_customlayout2.xml.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\customlayout2.xml"
     },
@@ -460,8 +532,16 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\buynsellicon.png"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_refresher.jpg.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\refresher.jpg"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_festdesc.xml.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\festdesc.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\round.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_freshersicon.png.flat",
