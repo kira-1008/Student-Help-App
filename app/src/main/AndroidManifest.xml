@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MyOrders"></activity>
+        <activity android:name=".MyAds"></activity>
         <activity android:name=".Sell" android:parentActivityName=".MainActivity"/>
         <activity android:name=".Purchase" />
         <activity

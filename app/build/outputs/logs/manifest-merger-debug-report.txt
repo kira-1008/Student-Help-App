@@ -96,10 +96,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\as
 		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.studentshelpapp.MyOrders
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:12:9-55
+activity#com.example.studentshelpapp.MyAds
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:12:9-52
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:12:19-43
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:12:19-40
 activity#com.example.studentshelpapp.Sell
 ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:13:9-84
 	android:parentActivityName
