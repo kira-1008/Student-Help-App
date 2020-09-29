@@ -18,7 +18,13 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme.NoActionBar" >
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.studentshelpapp.MyAds" />
+        <activity
+            android:name="com.example.studentshelpapp.Sell"
+            android:parentActivityName="com.example.studentshelpapp.MainActivity" />
+        <activity android:name="com.example.studentshelpapp.Purchase" />
+        android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:name="com.example.studentshelpapp.ui.notes.note"
             android:label="note"
@@ -39,7 +45,9 @@
             android:name="com.example.studentshelpapp.ui.freshers.foods"
             android:label="@string/title_activity_foods"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.studentshelpapp.MainActivity" />
+        <activity
+            android:name="com.example.studentshelpapp.MainActivity"
+            android:launchMode="singleTop" />
         <activity
             android:name="com.example.studentshelpapp.SplashActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" >
@@ -49,6 +57,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"

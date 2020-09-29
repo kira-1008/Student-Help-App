@@ -8,6 +8,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyAds"></activity>
+        <activity android:name=".Sell" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Purchase" />
+
         android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:name=".ui.notes.note"
@@ -17,10 +23,11 @@
             android:name=".ui.notes.book"
             android:label="note"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
         <activity
             android:name=".ui.freshers.fests"
             android:label="@string/title_activity_fests"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ui.freshers.needs"
             android:label="@string/title_activity_needs"
@@ -29,7 +36,7 @@
             android:name=".ui.freshers.foods"
             android:label="@string/title_activity_foods"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity" android:launchMode="singleTop"/>
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -39,6 +46,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

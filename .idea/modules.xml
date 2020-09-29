@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Students Help App-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Students Help App-app.iml" group="Students Help App/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Students_Help_App.iml" filepath="$PROJECT_DIR$/.idea/modules/Students_Help_App.iml" group="Students_Help_App" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Students Help App/app" />
     </modules>
