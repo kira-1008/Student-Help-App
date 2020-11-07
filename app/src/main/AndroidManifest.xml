@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.studentshelpapp">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,9 +13,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MyAds"></activity>
         <activity android:name=".Sell" android:parentActivityName=".MainActivity"/>
-        <activity android:name=".Purchase" />
+        <activity android:name=".Purchase"  android:parentActivityName=".MainActivity"/>
 
-        android:theme="@style/AppTheme.NoActionBar">
+
         <activity
             android:name=".ui.notes.note"
             android:label="note"

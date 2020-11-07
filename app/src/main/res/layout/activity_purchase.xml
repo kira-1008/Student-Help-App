@@ -1,9 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Purchase">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+         android:layout_below="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:id="@+id/btns"
+        android:background="@color/colorBlue2"
+        android:weightSum="6">
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/homeicon"
+            android:drawableTint="@color/colorWhite"
+            android:text="Home"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorBlue2"
+            android:textSize="10dp"
+
+            />
+
+
+
+        <Button
+            android:id="@+id/btn_edkit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/ic_ed_kit"
+            android:drawableTint="@color/colorWhite"
+            android:text="ED Kit"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorBlue2"
+            android:textSize="10dp"
+
+            /><Button
+        android:id="@+id/btn_apron"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:drawableTop="@drawable/ic_apron"
+        android:drawableTint="@color/colorWhite"
+        android:text="APRON"
+        android:textColor="@color/colorWhite"
+        android:backgroundTint="@color/colorBlue2"
+        android:textSize="10dp"
+
+        /><Button
+        android:id="@+id/btn_vehicle"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:drawableTop="@drawable/ic_vehicle"
+        android:drawableTint="@color/colorWhite"
+        android:text="vehicle"
+        android:textColor="@color/colorWhite"
+        android:backgroundTint="@color/colorBlue2"
+        android:textSize="10dp"
+
+        /><Button
+        android:id="@+id/btn_books"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:drawableTop="@drawable/ic_books"
+        android:drawableTint="@color/colorWhite"
+        android:text="Books"
+        android:textColor="@color/colorWhite"
+        android:backgroundTint="@color/colorBlue2"
+        android:textSize="10dp"
+
+        />
+        <Button
+            android:id="@+id/btn_other"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/ic_other"
+            android:drawableTint="@color/colorWhite"
+            android:text="Other"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorBlue2"
+            android:textSize="10dp"
+
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ads_view"
+        android:layout_below="@id/btns"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
