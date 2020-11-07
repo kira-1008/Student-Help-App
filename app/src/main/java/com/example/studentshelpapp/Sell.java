@@ -1,5 +1,6 @@
 package com.example.studentshelpapp;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,30 +8,61 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.database.Cursor;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.provider.OpenableColumns;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ServerValue;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Sell extends AppCompatActivity implements UploadListAdapter.OnCrossListener {
     Button mSelectButton;
+    Button Submitbtn;
+    EditText name;
+    EditText contact;
+    EditText productName;
+    EditText price;
+    EditText desc;
+    Spinner dropdown;
+    private StorageReference mStorageRef;
+    private DatabaseReference mDatabase;
+    ProgressDialog mProgress;
+
     RecyclerView mUploadList;
     private int RESULT_LOAD_IMAGE=1;
     private List<String> fileNameList;
     private List<String > fileDoneList;
     private List<Uri> fileUriList;
+    private List<String> ImageUrlList;
     private UploadListAdapter uploadListAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,19 +73,29 @@ public class Sell extends AppCompatActivity implements UploadListAdapter.OnCross
         ActionBar actionBar=getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        Spinner dropdown = findViewById(R.id.spinner);
+       dropdown = findViewById(R.id.spinner_category);
+       mStorageRef= FirebaseStorage.getInstance().getReference();
+       mDatabase= FirebaseDatabase.getInstance().getReference().child("Ads");
 
         String[] items = new String[]{"ED Kit","Bicycle","Books/Notes","Apron","Other"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
 
         dropdown.setAdapter(adapter);
+
+        Submitbtn=findViewById(R.id.submit_btn);
         mSelectButton=findViewById(R.id.btnchoose);
         mUploadList=findViewById(R.id.uploadList);
+        name=findViewById(R.id.text_name);
+        contact=findViewById(R.id.text_contact);
+        productName=findViewById(R.id.text_product);
+        price=findViewById(R.id.text_price);
+        desc=findViewById(R.id.text_desc);
 
         fileNameList=new ArrayList<>();
         fileDoneList=new ArrayList<>();
         fileUriList=new ArrayList<>();
+        ImageUrlList=new ArrayList<>();
         uploadListAdapter=new UploadListAdapter(fileNameList,fileDoneList,this);
         //Recycler View
         mUploadList.setLayoutManager(new LinearLayoutManager(this));
@@ -70,6 +112,95 @@ public class Sell extends AppCompatActivity implements UploadListAdapter.OnCross
                 startActivityForResult(Intent.createChooser(intent,"Select Picture"),RESULT_LOAD_IMAGE);
             }
         });
+        Submitbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startPosting();
+
+
+            }
+
+
+        });
+    }
+
+    public void startPosting() {
+
+        String Name=name.getText().toString();
+        String Contact=contact.getText().toString();
+        String ProName=productName.getText().toString();
+        String Price=price.getText().toString();
+        String Category=dropdown.getSelectedItem().toString();
+        String Description=desc.getText().toString();
+        mProgress=new ProgressDialog(this);
+        HashMap<String, Object> timestampNow = new HashMap<>();
+        timestampNow.put("timestamp", ServerValue.TIMESTAMP);
+        final DatabaseReference neworder=mDatabase.push();
+        String key=neworder.getKey();
+        if(!TextUtils.isEmpty(Name)&&!TextUtils.isEmpty(Contact)&&!TextUtils.isEmpty(ProName)&&!TextUtils.isEmpty(Price)&&!TextUtils.isEmpty(Category))
+        {
+            final int totalImages=fileUriList.size();
+            mProgress.setMessage("Posting Ad...");
+            mProgress.show();
+
+
+            for(int i=0;i<totalImages;i++)
+            {
+              final StorageReference filepath=mStorageRef.child("Images").child(key+Integer.toString(i));
+
+                final int finalI = i;
+
+                filepath.putFile(fileUriList.get(i)).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                    @Override
+                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                        filepath.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                            @Override
+                            public void onSuccess(Uri uri) {
+                                neworder.child("Images").child(Integer.toString(finalI)).setValue(uri.toString());
+                                if(finalI==totalImages-1)
+                                {mProgress.dismiss();
+                                    Toast.makeText(getApplicationContext(),"Ad posted successfully",Toast.LENGTH_SHORT).show();
+
+                                }
+                            }
+                        });
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                       Toast.makeText(getApplicationContext(),"Oops, upload failed for image " + Integer.toString(finalI),Toast.LENGTH_SHORT).show();
+                    }
+                });
+            }
+
+            neworder.child("Name").setValue(Name);
+            neworder.child("Contact").setValue(Contact);
+            neworder.child("Product").setValue(ProName);
+            neworder.child("Category").setValue(Category);
+            neworder.child("Price").setValue(Price);
+            neworder.child("Description").setValue(Description);
+            neworder.child("time").setValue(timestampNow.get("timestamp"));
+            if(totalImages==0)
+            {mProgress.dismiss();
+                Toast.makeText(getApplicationContext(),"Ad posted successfully",Toast.LENGTH_SHORT).show();
+
+            }
+
+
+
+
+
+
+
+
+
+        }
+        else
+        {
+            Toast.makeText(getApplicationContext(),"Incomplete information",Toast.LENGTH_LONG).show();
+        }
+
+
     }
 
     @Override

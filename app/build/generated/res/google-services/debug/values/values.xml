@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">434757579105-3svke8iulevapukpmc7k52othd07v2ub.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://student-help-app-cfc7c.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">434757579105</string>
+    <string name="google_api_key" translatable="false">AIzaSyChz8ftD4LBnZz-7nGuCSjNW1XNHEkON0M</string>
+    <string name="google_app_id" translatable="false">1:434757579105:android:87586284af881bdca0d520</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyChz8ftD4LBnZz-7nGuCSjNW1XNHEkON0M</string>
+    <string name="google_storage_bucket" translatable="false">student-help-app-cfc7c.appspot.com</string>
+    <string name="project_id" translatable="false">student-help-app-cfc7c</string>
+</resources>

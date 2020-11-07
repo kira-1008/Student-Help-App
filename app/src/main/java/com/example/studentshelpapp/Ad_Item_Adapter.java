@@ -19,6 +19,7 @@ class Ad_Item_Adapter extends RecyclerView.Adapter<Ad_Item_Adapter.ViewHolder> {
     public List<Integer> ItemImageList;
 
 
+
     public Ad_Item_Adapter(List<String> ItemPriceList, List<String>ItemNameList, List<Integer> ItemImageList)
     {
         this.ItemNameList=ItemNameList;
@@ -31,7 +32,9 @@ class Ad_Item_Adapter extends RecyclerView.Adapter<Ad_Item_Adapter.ViewHolder> {
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v= LayoutInflater.from(parent.getContext()).inflate(R.layout.single_ad_item,parent,false);
+
         return new Ad_Item_Adapter.ViewHolder(v);
+
     }
 
     @Override

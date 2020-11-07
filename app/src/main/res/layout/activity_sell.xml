@@ -57,6 +57,7 @@
             android:textSize="15sp"
             android:textStyle="bold" />
         <EditText
+            android:id="@+id/text_name"
             android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -75,7 +76,8 @@
             android:textSize="15sp"
             android:textStyle="bold" />
         <EditText
-            android:inputType="number"
+            android:id="@+id/text_contact"
+            android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/contact"
@@ -93,6 +95,7 @@
             android:textSize="15sp"
             android:textStyle="bold" />
         <EditText
+            android:id="@+id/text_product"
             android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -112,7 +115,7 @@
             android:textStyle="bold" />
         <Spinner
 
-            android:id="@+id/spinner"
+            android:id="@+id/spinner_category"
             android:layout_below="@+id/category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -126,11 +129,12 @@
             android:layout_below="@id/category"
             android:layout_marginTop="80dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Offered Price"
+            android:text="Offered Price(Rs)"
             android:textColor="@color/colorBlue2"
             android:textSize="15sp"
             android:textStyle="bold" />
         <EditText
+            android:id="@+id/text_price"
             android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -149,6 +153,7 @@
             android:textSize="15sp"
             android:textStyle="bold" />
         <EditText
+            android:id="@+id/text_desc"
             android:inputType="textMultiLine"
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -193,7 +198,7 @@
             android:background="@drawable/button"
             android:backgroundTint="@color/colorBlue1"
             android:textColor="@color/colorWhite"
-
+            android:id="@+id/submit_btn"
             android:text="Submit"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/uploadList"
