@@ -22,14 +22,16 @@ class Ad_Item_Adapter extends RecyclerView.Adapter<Ad_Item_Adapter.ViewHolder> {
     public List<String> ItemNameList;
     public List<String> ItemPriceList;
    public List<List<String>> ItemUrlList;
+   private OnAdListener onAdListener;
 
 
 
-    public Ad_Item_Adapter(List<String> ItemPriceList, List<String>ItemNameList, List<List<String>> itemurl)
+    public Ad_Item_Adapter(List<String> ItemPriceList, List<String>ItemNameList, List<List<String>> itemurl,OnAdListener onAdListener)
     {
         this.ItemNameList=ItemNameList;
         this.ItemPriceList=ItemPriceList;
         this.ItemUrlList=itemurl;
+        this.onAdListener=onAdListener;
 
     }
 
@@ -38,7 +40,7 @@ class Ad_Item_Adapter extends RecyclerView.Adapter<Ad_Item_Adapter.ViewHolder> {
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v= LayoutInflater.from(parent.getContext()).inflate(R.layout.single_ad_item,parent,false);
 
-        return new Ad_Item_Adapter.ViewHolder(v);
+        return new Ad_Item_Adapter.ViewHolder(v,onAdListener);
 
     }
 
@@ -65,19 +67,30 @@ class Ad_Item_Adapter extends RecyclerView.Adapter<Ad_Item_Adapter.ViewHolder> {
         return ItemNameList.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         public ImageView ItemImage;
         public TextView ItemName;
         public TextView ItemPrice;
-        public ViewHolder(@NonNull View itemView) {
+        private OnAdListener onAdListener;
+        public ViewHolder(@NonNull View itemView,OnAdListener onAdListener) {
             super(itemView);
             ItemImage=itemView.findViewById(R.id.ItemImage);
             ItemName=itemView.findViewById(R.id.ItemName);
             ItemPrice=itemView.findViewById(R.id.ItemPrice);
+            this.onAdListener=onAdListener;
+            itemView.setOnClickListener(this);
 
 
 
         }
+
+        @Override
+        public void onClick(View view) {
+            onAdListener.onAdClick(getAdapterPosition());
+        }
+    }
+    public interface OnAdListener{
+        void onAdClick(int position);
     }
 
 }

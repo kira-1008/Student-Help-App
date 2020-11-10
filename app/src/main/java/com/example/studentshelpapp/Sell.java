@@ -53,6 +53,7 @@ public class Sell extends AppCompatActivity implements UploadListAdapter.OnCross
     Spinner dropdown;
     private StorageReference mStorageRef;
     private DatabaseReference mDatabase;
+
     ProgressDialog mProgress;
 
     RecyclerView mUploadList;
@@ -94,6 +95,7 @@ public class Sell extends AppCompatActivity implements UploadListAdapter.OnCross
 
         fileNameList=new ArrayList<>();
         fileDoneList=new ArrayList<>();
+
         fileUriList=new ArrayList<>();
         ImageUrlList=new ArrayList<>();
         uploadListAdapter=new UploadListAdapter(fileNameList,fileDoneList,this);
@@ -135,6 +137,7 @@ public class Sell extends AppCompatActivity implements UploadListAdapter.OnCross
         mProgress=new ProgressDialog(this);
         final DatabaseReference neworder=mDatabase.push();
         String key=neworder.getKey();
+
         if(!TextUtils.isEmpty(Name)&&!TextUtils.isEmpty(Contact)&&!TextUtils.isEmpty(ProName)&&!TextUtils.isEmpty(Price)&&!TextUtils.isEmpty(Category))
         {
             final int totalImages=fileUriList.size();

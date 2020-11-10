@@ -1,11 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-60:12
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\1d0eb95b97a8fddba65ab3e5efd5654c\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2069ecdbb2879ea2eb7c34a2fc468e00\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\92935bc99972b624ccf321ca9b63d471\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c169e045968aa05ca6c1c799e390a81f\material-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b6ab4a313d417e48782f9ea999e77b72\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\61c1470e6dec49c6a6e2185dbf33203c\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
@@ -77,25 +78,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\asus\.gradle\cac
 MERGED from [androidx.print:print:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\410f8a5d572e99627a02105a188dcc85\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\1194b4176f690b6ad8f4bbafe658a3e2\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d16c055fb911a7e235b9e6af8aa6e581\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\f09d091f81b212e5d890a8fd7ee1b65f\jetified-firebase-auth-20.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\f09d091f81b212e5d890a8fd7ee1b65f\jetified-firebase-auth-20.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c7fc17e1e32ad03dc7f5ffdd51901eb8\jetified-firebase-storage-19.2.0\AndroidManifest.xml:27:5-67
@@ -113,9 +114,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b7177136e303db0cc40011d785e91c92\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b7177136e303db0cc40011d785e91c92\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:6:5-54:19
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:7:5-58:19
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\1d0eb95b97a8fddba65ab3e5efd5654c\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\1d0eb95b97a8fddba65ab3e5efd5654c\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.material:material:1.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c169e045968aa05ca6c1c799e390a81f\material-1.2.0\AndroidManifest.xml:22:5-20
@@ -171,101 +172,109 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\as
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\af18cf9ae7817a9df06eeeec5a45f137\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:10:9-47
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:11:9-47
 	android:icon
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:8:9-36
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:9:9-36
 	android:allowBackup
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.studentshelpapp.Details
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:14:9-83
+	android:parentActivityName
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:14:43-81
+	android:name
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:14:19-42
 activity#com.example.studentshelpapp.MyAds
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:14:9-52
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:15:9-85
+	android:parentActivityName
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:15:41-83
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:14:19-40
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:15:19-40
 activity#com.example.studentshelpapp.Sell
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:15:9-84
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:16:9-18:58
 	android:parentActivityName
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:15:40-82
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:18:13-55
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:15:19-39
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:17:13-33
 activity#com.example.studentshelpapp.Purchase
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:16:9-89
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:19:9-21:58
 	android:parentActivityName
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:16:45-87
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:21:13-55
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:16:19-43
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:20:13-37
 activity#com.example.studentshelpapp.ui.notes.note
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:19:9-22:68
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:22:9-25:59
 	android:label
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:21:13-33
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:24:13-33
 	android:theme
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:22:13-56
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:25:13-56
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:20:13-42
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:23:13-42
 activity#com.example.studentshelpapp.ui.notes.book
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:23:9-26:68
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:26:9-29:59
 	android:label
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:25:13-33
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:28:13-33
 	android:theme
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:26:13-56
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:24:13-42
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:27:13-42
 activity#com.example.studentshelpapp.ui.freshers.fests
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:28:9-31:59
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:30:9-33:59
 	android:label
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:30:13-57
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:32:13-57
 	android:theme
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:31:13-56
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:29:13-46
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:31:13-46
 activity#com.example.studentshelpapp.ui.freshers.needs
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:32:9-35:59
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:34:9-37:59
 	android:label
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:34:13-57
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:36:13-57
 	android:theme
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:35:13-56
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:37:13-56
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:33:13-46
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:35:13-46
 activity#com.example.studentshelpapp.ui.freshers.foods
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:36:9-39:59
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:38:9-41:59
 	android:label
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:38:13-57
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:40:13-57
 	android:theme
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:39:13-56
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:41:13-56
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:37:13-46
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:39:13-46
 activity#com.example.studentshelpapp.MainActivity
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:40:9-80
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:42:9-44:46
 	android:launchMode
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:40:48-78
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:44:13-43
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:40:19-47
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:43:13-41
 activity#com.example.studentshelpapp.SplashActivity
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:41:9-49:20
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:45:9-53:20
 	android:theme
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:43:13-63
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:47:13-63
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:42:13-43
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:46:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:44:13-48:29
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:48:13-52:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:45:17-69
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:45:25-66
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:47:17-77
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:47:27-74
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:51:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:51:9-53:57
+ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:55:9-57:57
 	android:resource
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:53:13-54
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:57:13-54
 	android:name
-		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:52:13-43
+		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml:56:13-43
 uses-sdk
 INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml
@@ -274,6 +283,8 @@ MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\asus\.gradl
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\1d0eb95b97a8fddba65ab3e5efd5654c\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2069ecdbb2879ea2eb7c34a2fc468e00\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2069ecdbb2879ea2eb7c34a2fc468e00\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\92935bc99972b624ccf321ca9b63d471\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\92935bc99972b624ccf321ca9b63d471\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c169e045968aa05ca6c1c799e390a81f\material-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c169e045968aa05ca6c1c799e390a81f\material-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b6ab4a313d417e48782f9ea999e77b72\cardview-1.0.0\AndroidManifest.xml:20:5-44

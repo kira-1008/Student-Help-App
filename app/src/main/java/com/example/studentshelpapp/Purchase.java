@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -30,14 +31,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Purchase extends AppCompatActivity {
-    private List<String> ItemNameList;
-    private List<String> ItemPriceList;
-    private ArrayList<String> UserNameList;
-    private ArrayList<String> Category;
-    private ArrayList<String> Contact;
-    private ArrayList<String> Description;
-    private ArrayList<List<String>> itemurl;
+public class Purchase extends AppCompatActivity implements Ad_Item_Adapter.OnAdListener{
+    static public List<String> ItemNameList;
+    static public List<String> ItemPriceList;
+    static public ArrayList<String> UserNameList;
+    static public ArrayList<String> Category;
+    static public ArrayList<String> Contact;
+    static public ArrayList<String> Description;
+    static public ArrayList<List<String>> itemurl;
+    static public ArrayList<String> Keylist;
     private RecyclerView AdsView;
     private Ad_Item_Adapter ad_item_adapter;
     Button homebtn;
@@ -47,20 +49,23 @@ public class Purchase extends AppCompatActivity {
 
 
     public void home(View view)
-    {   mprogress.setMessage("Loading..");
+    {mprogress.setMessage("Loading..");
         mprogress.show();
-        ItemNameList.clear();
-        ItemPriceList.clear();
-        UserNameList.clear();
-        Category.clear();
-        Contact.clear();
-        Description.clear();
-        itemurl.clear();
-        ad_item_adapter.notifyDataSetChanged();
         Query query=myRef.limitToLast(50);
-        query.addValueEventListener(new ValueEventListener() {
+        query.addListenerForSingleValueEvent(new ValueEventListener() {
+
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                ItemNameList.clear();
+                ItemPriceList.clear();
+                UserNameList.clear();
+                Category.clear();
+                Contact.clear();
+                Description.clear();
+                itemurl.clear();
+                Keylist.clear();
+                ad_item_adapter.notifyDataSetChanged();
                 long counter=snapshot.getChildrenCount();
                 if(counter==0)
                 {
@@ -69,11 +74,10 @@ public class Purchase extends AppCompatActivity {
                 //Log.i("counter",Long.toString(counter));
                 long i=1;
                for(DataSnapshot data:snapshot.getChildren())
-               {
+               {Keylist.add(data.getKey());
                    Map<String, Object> values = (HashMap<String, Object>) data.getValue();
 
                    UserNameList.add(values.get("Name").toString());
-
                    Contact.add(values.get("Contact").toString());
                    ItemNameList.add(values.get("Product").toString());
                    ItemPriceList.add(values.get("Price").toString());
@@ -115,6 +119,7 @@ public class Purchase extends AppCompatActivity {
                        Collections.reverse(Category);
                        Collections.reverse(Contact);
                        Collections.reverse(Description);
+                       Collections.reverse(Keylist);
                        ad_item_adapter.notifyDataSetChanged();
                        mprogress.dismiss();
                    }
@@ -132,20 +137,22 @@ public class Purchase extends AppCompatActivity {
 
     }
     public void vehicle(View view)
-    {   mprogress.setMessage("Loading..");
+    {mprogress.setMessage("Loading..");
         mprogress.show();
-        ItemNameList.clear();
-        ItemPriceList.clear();
-        UserNameList.clear();
-        Category.clear();
-        Contact.clear();
-        Description.clear();
-        itemurl.clear();
-        ad_item_adapter.notifyDataSetChanged();
         Query query=myRef.orderByChild("Category").equalTo("Vehicle").limitToLast(50);
-        query.addValueEventListener(new ValueEventListener() {
+        query.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                ItemNameList.clear();
+                ItemPriceList.clear();
+                UserNameList.clear();
+                Category.clear();
+                Contact.clear();
+                Description.clear();
+                itemurl.clear();
+                Keylist.clear();
+                ad_item_adapter.notifyDataSetChanged();
                 long counter=snapshot.getChildrenCount();
                 if(counter==0)
                 {
@@ -200,6 +207,7 @@ public class Purchase extends AppCompatActivity {
                         Collections.reverse(Category);
                         Collections.reverse(Contact);
                         Collections.reverse(Description);
+                        Collections.reverse(Keylist);
                         ad_item_adapter.notifyDataSetChanged();
                         mprogress.dismiss();
                     }
@@ -219,18 +227,20 @@ public class Purchase extends AppCompatActivity {
     public void apron(View view)
     {mprogress.setMessage("Loading..");
         mprogress.show();
-        ItemNameList.clear();
-        ItemPriceList.clear();
-        UserNameList.clear();
-        Category.clear();
-        Contact.clear();
-        Description.clear();
-        itemurl.clear();
-        ad_item_adapter.notifyDataSetChanged();
         Query query=myRef.orderByChild("Category").equalTo("Apron").limitToLast(50);
-        query.addValueEventListener(new ValueEventListener() {
+        query.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                ItemNameList.clear();
+                ItemPriceList.clear();
+                UserNameList.clear();
+                Category.clear();
+                Contact.clear();
+                Description.clear();
+                itemurl.clear();
+                Keylist.clear();
+                ad_item_adapter.notifyDataSetChanged();
                 long counter=snapshot.getChildrenCount();
                 if(counter==0)
                 {
@@ -284,6 +294,7 @@ public class Purchase extends AppCompatActivity {
                         Collections.reverse(Category);
                         Collections.reverse(Contact);
                         Collections.reverse(Description);
+                        Collections.reverse(Keylist);
                         ad_item_adapter.notifyDataSetChanged();
                         mprogress.dismiss();
 
@@ -304,18 +315,20 @@ public class Purchase extends AppCompatActivity {
     public void books(View view)
     {mprogress.setMessage("Loading..");
         mprogress.show();
-        ItemNameList.clear();
-        ItemPriceList.clear();
-        UserNameList.clear();
-        Category.clear();
-        Contact.clear();
-        Description.clear();
-        itemurl.clear();
-        ad_item_adapter.notifyDataSetChanged();
         Query query=myRef.orderByChild("Category").equalTo("Books/Notes").limitToLast(50);
-        query.addValueEventListener(new ValueEventListener() {
+        query.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                ItemNameList.clear();
+                ItemPriceList.clear();
+                UserNameList.clear();
+                Category.clear();
+                Contact.clear();
+                Description.clear();
+                itemurl.clear();
+                Keylist.clear();
+                ad_item_adapter.notifyDataSetChanged();
                 long counter=snapshot.getChildrenCount();
                 if(counter==0)
                 {
@@ -368,6 +381,7 @@ public class Purchase extends AppCompatActivity {
                         Collections.reverse(UserNameList);
                         Collections.reverse(Category);
                         Collections.reverse(Contact);
+                        Collections.reverse(Keylist);
                         Collections.reverse(Description);
                         ad_item_adapter.notifyDataSetChanged();
                         mprogress.dismiss();
@@ -389,18 +403,20 @@ public class Purchase extends AppCompatActivity {
     public void edkit(View view)
     {mprogress.setMessage("Loading..");
         mprogress.show();
-        ItemNameList.clear();
-        ItemPriceList.clear();
-        UserNameList.clear();
-        Category.clear();
-        Contact.clear();
-        Description.clear();
-        itemurl.clear();
-        ad_item_adapter.notifyDataSetChanged();
         Query query=myRef.orderByChild("Category").equalTo("ED Kit").limitToLast(50);
-        query.addValueEventListener(new ValueEventListener() {
+        query.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                ItemNameList.clear();
+                ItemPriceList.clear();
+                UserNameList.clear();
+                Category.clear();
+                Contact.clear();
+                Description.clear();
+                itemurl.clear();
+                Keylist.clear();
+                ad_item_adapter.notifyDataSetChanged();
                 long counter=snapshot.getChildrenCount();
                 if(counter==0)
                 {
@@ -453,6 +469,7 @@ public class Purchase extends AppCompatActivity {
                         Collections.reverse(itemurl);
                         Collections.reverse(UserNameList);
                         Collections.reverse(Category);
+                        Collections.reverse(Keylist);
                         Collections.reverse(Contact);
                         Collections.reverse(Description);
                         ad_item_adapter.notifyDataSetChanged();
@@ -475,18 +492,20 @@ public class Purchase extends AppCompatActivity {
     public void others(View view)
     {mprogress.setMessage("Loading..");
         mprogress.show();
-        ItemNameList.clear();
-        ItemPriceList.clear();
-        UserNameList.clear();
-        Category.clear();
-        Contact.clear();
-        Description.clear();
-        itemurl.clear();
-        ad_item_adapter.notifyDataSetChanged();
         Query query=myRef.orderByChild("Category").equalTo("Other").limitToLast(50);
-        query.addValueEventListener(new ValueEventListener() {
+        query.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                ItemNameList.clear();
+                ItemPriceList.clear();
+                UserNameList.clear();
+                Category.clear();
+                Contact.clear();
+                Description.clear();
+                itemurl.clear();
+                Keylist.clear();
+                ad_item_adapter.notifyDataSetChanged();
                 long counter=snapshot.getChildrenCount();
                 if(counter==0)
                 {
@@ -539,6 +558,7 @@ public class Purchase extends AppCompatActivity {
                         Collections.reverse(UserNameList);
                         Collections.reverse(Category);
                         Collections.reverse(Contact);
+                        Collections.reverse(Keylist);
                         Collections.reverse(Description);
                         ad_item_adapter.notifyDataSetChanged();
                         mprogress.dismiss();
@@ -581,9 +601,10 @@ public class Purchase extends AppCompatActivity {
         Description=new ArrayList<>();
         Category=new ArrayList<>();
         itemurl=new ArrayList<>();
+        Keylist=new ArrayList<>();
         homebtn=findViewById(R.id.btn_home);
         AdsView=findViewById(R.id.ads_view);
-        ad_item_adapter=new Ad_Item_Adapter(ItemPriceList,ItemNameList,itemurl);
+        ad_item_adapter=new Ad_Item_Adapter(ItemPriceList,ItemNameList,itemurl,this);
         //Recycler View
         AdsView.setLayoutManager(new LinearLayoutManager(this));
         AdsView.setHasFixedSize(true);
@@ -593,5 +614,12 @@ public class Purchase extends AppCompatActivity {
 
 
 
+    }
+
+    @Override
+    public void onAdClick(int position) {
+        Intent intent=new Intent(this,Details.class);
+        intent.putExtra("position",position);
+        startActivity(intent);
     }
 }
