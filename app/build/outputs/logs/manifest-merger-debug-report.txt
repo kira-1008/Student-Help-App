@@ -8,6 +8,7 @@ MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\asus\.gradl
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2069ecdbb2879ea2eb7c34a2fc468e00\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c169e045968aa05ca6c1c799e390a81f\material-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b6ab4a313d417e48782f9ea999e77b72\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\61c1470e6dec49c6a6e2185dbf33203c\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\49bda1051ce9112dcd2863a54979327a\constraintlayout-2.0.0-alpha2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b1254f835d2e50004f14731e3271899d\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\01272a8d33c6943dd1d04bc0fe9a5705\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -42,6 +43,7 @@ MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\2a38911dfcd618f6f10b3261ee4a7ed5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\6ad125d7c232d1c27a50120c35aa4bd5\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c589a8b64c92fc3d250c179a2678c2b5\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\958574b001d0bd9b6cda276c681d6fb5\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\1f2f6e35597700a1fa707c525aa71aef\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\6197a1e4fd17706b41f50968ca5cdc46\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\dfa225602080814c2106175b3407a619\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -118,6 +120,8 @@ MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\asus\.gradl
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\1d0eb95b97a8fddba65ab3e5efd5654c\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.material:material:1.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c169e045968aa05ca6c1c799e390a81f\material-1.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c169e045968aa05ca6c1c799e390a81f\material-1.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\61c1470e6dec49c6a6e2185dbf33203c\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\61c1470e6dec49c6a6e2185dbf33203c\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\49bda1051ce9112dcd2863a54979327a\constraintlayout-2.0.0-alpha2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\49bda1051ce9112dcd2863a54979327a\constraintlayout-2.0.0-alpha2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\f823d3781cdca253572123fe2ac96bfc\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
@@ -274,6 +278,8 @@ MERGED from [com.google.android.material:material:1.2.0] C:\Users\asus\.gradle\c
 MERGED from [com.google.android.material:material:1.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c169e045968aa05ca6c1c799e390a81f\material-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b6ab4a313d417e48782f9ea999e77b72\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b6ab4a313d417e48782f9ea999e77b72\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\61c1470e6dec49c6a6e2185dbf33203c\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\61c1470e6dec49c6a6e2185dbf33203c\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\49bda1051ce9112dcd2863a54979327a\constraintlayout-2.0.0-alpha2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\49bda1051ce9112dcd2863a54979327a\constraintlayout-2.0.0-alpha2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b1254f835d2e50004f14731e3271899d\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -342,6 +348,8 @@ MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\asus\.gradle\caches\tran
 MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\6ad125d7c232d1c27a50120c35aa4bd5\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c589a8b64c92fc3d250c179a2678c2b5\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c589a8b64c92fc3d250c179a2678c2b5\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\958574b001d0bd9b6cda276c681d6fb5\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\958574b001d0bd9b6cda276c681d6fb5\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\1f2f6e35597700a1fa707c525aa71aef\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\1f2f6e35597700a1fa707c525aa71aef\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\6197a1e4fd17706b41f50968ca5cdc46\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -418,6 +426,14 @@ INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifes
 		INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\asus\Desktop\Student-Help-App\app\src\main\AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\61c1470e6dec49c6a6e2185dbf33203c\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\61c1470e6dec49c6a6e2185dbf33203c\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\61c1470e6dec49c6a6e2185dbf33203c\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\61c1470e6dec49c6a6e2185dbf33203c\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\f09d091f81b212e5d890a8fd7ee1b65f\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\c7fc17e1e32ad03dc7f5ffdd51901eb8\jetified-firebase-storage-19.2.0\AndroidManifest.xml:26:5-79

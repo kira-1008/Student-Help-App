@@ -428,6 +428,10 @@
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\layout\\activity_my_ads.xml"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_noimage.jpg.flat",
+        "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\noimage.jpg"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sticker.png.flat",
         "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\drawable\\sticker.png"
     },

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#c0c6cf"
     tools:context=".Purchase">
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -27,85 +28,93 @@
         tools:layout_editor_absoluteY="1dp"
         android:id="@+id/btns"
         android:background="@color/colorBlue2"
+
         android:weightSum="6">
+
         <Button
             android:id="@+id/btn_home"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorBlue2"
             android:drawableTop="@drawable/homeicon"
             android:drawableTint="@color/colorWhite"
+            android:onClick="home"
             android:text="Home"
             android:textColor="@color/colorWhite"
-            android:backgroundTint="@color/colorBlue2"
-            android:textSize="10dp"
 
-            />
-
+            android:textSize="10dp" />
 
 
         <Button
             android:id="@+id/btn_edkit"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorBlue2"
             android:drawableTop="@drawable/ic_ed_kit"
             android:drawableTint="@color/colorWhite"
+            android:onClick="edkit"
             android:text="ED Kit"
             android:textColor="@color/colorWhite"
+
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/btn_apron"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:backgroundTint="@color/colorBlue2"
-            android:textSize="10dp"
+            android:drawableTop="@drawable/ic_apron"
+            android:drawableTint="@color/colorWhite"
+            android:onClick="apron"
+            android:text="APRON"
+            android:textColor="@color/colorWhite"
 
-            /><Button
-        android:id="@+id/btn_apron"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent"
-        android:drawableTop="@drawable/ic_apron"
-        android:drawableTint="@color/colorWhite"
-        android:text="APRON"
-        android:textColor="@color/colorWhite"
-        android:backgroundTint="@color/colorBlue2"
-        android:textSize="10dp"
+            android:textSize="10dp" />
 
-        /><Button
-        android:id="@+id/btn_vehicle"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent"
-        android:drawableTop="@drawable/ic_vehicle"
-        android:drawableTint="@color/colorWhite"
-        android:text="vehicle"
-        android:textColor="@color/colorWhite"
-        android:backgroundTint="@color/colorBlue2"
-        android:textSize="10dp"
+        <Button
+            android:id="@+id/btn_vehicle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorBlue2"
+            android:drawableTop="@drawable/ic_vehicle"
+            android:drawableTint="@color/colorWhite"
+            android:onClick="vehicle"
+            android:text="vehicle"
+            android:textColor="@color/colorWhite"
 
-        /><Button
-        android:id="@+id/btn_books"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent"
-        android:drawableTop="@drawable/ic_books"
-        android:drawableTint="@color/colorWhite"
-        android:text="Books"
-        android:textColor="@color/colorWhite"
-        android:backgroundTint="@color/colorBlue2"
-        android:textSize="10dp"
+            android:textSize="10dp" />
 
-        />
+        <Button
+            android:id="@+id/btn_books"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorBlue2"
+            android:drawableTop="@drawable/ic_books"
+            android:drawableTint="@color/colorWhite"
+            android:onClick="books"
+            android:text="Books"
+            android:textColor="@color/colorWhite"
+
+            android:textSize="10dp" />
+
         <Button
             android:id="@+id/btn_other"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorBlue2"
             android:drawableTop="@drawable/ic_other"
             android:drawableTint="@color/colorWhite"
+            android:onClick="others"
             android:text="Other"
             android:textColor="@color/colorWhite"
-            android:backgroundTint="@color/colorBlue2"
-            android:textSize="10dp"
 
-            />
+            android:textSize="10dp" />
 
     </LinearLayout>
 
@@ -115,5 +124,5 @@
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="20dp"/>
+        android:layout_margin="20dp"/>
 </RelativeLayout>

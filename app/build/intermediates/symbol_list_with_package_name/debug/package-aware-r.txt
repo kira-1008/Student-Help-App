@@ -1649,6 +1649,7 @@ drawable namecard
 drawable navigation_empty_icon
 drawable need
 drawable needs
+drawable noimage
 drawable notes
 drawable notesicon
 drawable notification_action_background

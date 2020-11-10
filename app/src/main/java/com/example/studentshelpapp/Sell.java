@@ -77,7 +77,7 @@ public class Sell extends AppCompatActivity implements UploadListAdapter.OnCross
        mStorageRef= FirebaseStorage.getInstance().getReference();
        mDatabase= FirebaseDatabase.getInstance().getReference().child("Ads");
 
-        String[] items = new String[]{"ED Kit","Bicycle","Books/Notes","Apron","Other"};
+        String[] items = new String[]{"ED Kit","Vehicle","Books/Notes","Apron","Other"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
 
@@ -133,8 +133,6 @@ public class Sell extends AppCompatActivity implements UploadListAdapter.OnCross
         String Category=dropdown.getSelectedItem().toString();
         String Description=desc.getText().toString();
         mProgress=new ProgressDialog(this);
-        HashMap<String, Object> timestampNow = new HashMap<>();
-        timestampNow.put("timestamp", ServerValue.TIMESTAMP);
         final DatabaseReference neworder=mDatabase.push();
         String key=neworder.getKey();
         if(!TextUtils.isEmpty(Name)&&!TextUtils.isEmpty(Contact)&&!TextUtils.isEmpty(ProName)&&!TextUtils.isEmpty(Price)&&!TextUtils.isEmpty(Category))
@@ -157,6 +155,7 @@ public class Sell extends AppCompatActivity implements UploadListAdapter.OnCross
                             @Override
                             public void onSuccess(Uri uri) {
                                 neworder.child("Images").child(Integer.toString(finalI)).setValue(uri.toString());
+                                Log.i("image",uri.toString());
                                 if(finalI==totalImages-1)
                                 {mProgress.dismiss();
                                     Toast.makeText(getApplicationContext(),"Ad posted successfully",Toast.LENGTH_SHORT).show();
@@ -179,9 +178,10 @@ public class Sell extends AppCompatActivity implements UploadListAdapter.OnCross
             neworder.child("Category").setValue(Category);
             neworder.child("Price").setValue(Price);
             neworder.child("Description").setValue(Description);
-            neworder.child("time").setValue(timestampNow.get("timestamp"));
+
             if(totalImages==0)
-            {mProgress.dismiss();
+            {
+                mProgress.dismiss();
                 Toast.makeText(getApplicationContext(),"Ad posted successfully",Toast.LENGTH_SHORT).show();
 
             }
