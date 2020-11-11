@@ -1657,6 +1657,7 @@ drawable material_ic_keyboard_arrow_left_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable more
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1940,6 +1941,7 @@ id list_item
 id listview
 id login
 id logo
+id logout
 id map
 id masked
 id media_actions
@@ -2354,6 +2356,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout upload_image_item
 menu activity_main_drawer
+menu side_menu
 mipmap logo
 mipmap logo_foreground
 mipmap logo_round
