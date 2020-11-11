@@ -1617,6 +1617,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable email
 drawable error
 drawable festss
 drawable fireworks
@@ -1685,9 +1686,11 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pass
 drawable placeholder
 drawable poster
 drawable purchasing
+drawable rectangular_field
 drawable refresher
 drawable round
 drawable roundedcorner
@@ -1789,6 +1792,7 @@ id alertTitle
 id alignBounds
 id alignMargins
 id all
+id already
 id always
 id anticipate
 id appBarLayout
@@ -1864,6 +1868,7 @@ id dimensions
 id direct
 id disableHome
 id dist_s
+id dont
 id dragDown
 id dragLeft
 id dragRight
@@ -1874,6 +1879,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id email
 id end
 id end_padder
 id enterAlways
@@ -1912,6 +1918,8 @@ id icon_only
 id ifRoom
 id image
 id imageView
+id imageView2
+id imageView3
 id image_view
 id info
 id invisible
@@ -1931,6 +1939,7 @@ id link
 id listMode
 id list_item
 id listview
+id login
 id logo
 id masked
 id media_actions
@@ -1997,7 +2006,9 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
 id password_toggle
+id passwordconf
 id path
 id pathRelative
 id peekHeight
@@ -2046,6 +2057,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signn
 id sin
 id skipCollapsed
 id slide
@@ -2099,6 +2111,7 @@ id textSpacerNoTitle
 id textStart
 id textView
 id textView2
+id textView3
 id textView4
 id textView5
 id text_contact
@@ -2218,12 +2231,14 @@ layout activity_book
 layout activity_details
 layout activity_fests
 layout activity_foods
+layout activity_login
 layout activity_main
 layout activity_my_ads
 layout activity_needs
 layout activity_note
 layout activity_purchase
 layout activity_sell
+layout activity_signup
 layout activity_splash
 layout app_bar_main
 layout book

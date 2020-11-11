@@ -12,12 +12,12 @@
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\layout\\home.xml"
     },
     {
-        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_bookdesc.xml.flat",
-        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\layout\\bookdesc.xml"
-    },
-    {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buynsellicon.xml.flat",
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\drawable\\buynsellicon.xml"
+    },
+    {
+        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_bookdesc.xml.flat",
+        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\layout\\bookdesc.xml"
     },
     {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_basicneeds.jpg.flat",
@@ -96,12 +96,12 @@
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\layout\\fragment_fests.xml"
     },
     {
-        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_logo.png.flat",
-        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
-    },
-    {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_logo.png.flat",
+        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
     },
     {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_notes.xml.flat",
@@ -148,8 +148,16 @@
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\layout\\activity_foods.xml"
     },
     {
+        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_logo.png.flat",
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\mipmap-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pass.xml.flat",
+        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\drawable\\pass.xml"
     },
     {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_item2.xml.flat",
@@ -296,6 +304,10 @@
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\drawable\\round.xml"
     },
     {
+        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_email.xml.flat",
+        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\drawable\\email.xml"
+    },
+    {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_styling.xml.flat",
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\drawable\\styling.xml"
     },
@@ -350,6 +362,10 @@
     {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_styling4.xml.flat",
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\drawable\\styling4.xml"
+    },
+    {
+        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_food.png.flat",
@@ -426,6 +442,10 @@
     {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangular_field.xml.flat",
+        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\drawable\\rectangular_field.xml"
     },
     {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_logo_round.png.flat",
