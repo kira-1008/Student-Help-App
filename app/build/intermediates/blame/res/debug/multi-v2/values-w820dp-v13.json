@@ -1,24 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "C:\\Users\\ashis\\Desktop\\Student-Help-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\ashis\\Desktop\\Student-Help-App\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
-=======
-<<<<<<< Updated upstream
-            "outputFile": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
-=======
             "outputFile": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
->>>>>>> Stashed changes
->>>>>>> pr/9
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
