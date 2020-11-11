@@ -12,12 +12,12 @@
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\layout\\home.xml"
     },
     {
-        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buynsellicon.xml.flat",
-        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\drawable\\buynsellicon.xml"
-    },
-    {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_bookdesc.xml.flat",
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\layout\\bookdesc.xml"
+    },
+    {
+        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buynsellicon.xml.flat",
+        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\drawable\\buynsellicon.xml"
     },
     {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\drawable_basicneeds.jpg.flat",
@@ -96,12 +96,12 @@
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\layout\\fragment_fests.xml"
     },
     {
-        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
-    },
-    {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_logo.png.flat",
         "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
     {
         "merged": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\res\\merged\\debug\\layout_notes.xml.flat",
