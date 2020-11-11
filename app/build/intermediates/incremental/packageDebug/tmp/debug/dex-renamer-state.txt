@@ -1,7 +1,12 @@
+<<<<<<< Updated upstream
 #Wed Nov 11 01:01:49 IST 2020
 base.0=C\:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
+=======
+#Wed Nov 11 16:50:21 IST 2020
+base.0=C\:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+>>>>>>> Stashed changes
 path.0=classes.dex
 renamed.0=classes.dex
 base.1=C\:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< Updated upstream
             "outputFile": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-da\\values-da.xml",
+=======
+            "outputFile": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-da\\values-da.xml",
+>>>>>>> Stashed changes
             "map": [
                 {
                     "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-2\\files-2.1\\2069ecdbb2879ea2eb7c34a2fc468e00\\navigation-ui-2.3.0\\res\\values-da\\values-da.xml",

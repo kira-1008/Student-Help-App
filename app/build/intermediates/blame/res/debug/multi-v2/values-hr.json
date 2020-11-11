@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< Updated upstream
             "outputFile": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
+=======
+            "outputFile": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
+>>>>>>> Stashed changes
             "map": [
                 {
                     "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-2\\files-2.1\\af18cf9ae7817a9df06eeeec5a45f137\\core-1.3.0\\res\\values-hr\\values-hr.xml",

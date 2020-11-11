@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< Updated upstream
             "outputFile": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
+=======
+            "outputFile": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
+>>>>>>> Stashed changes
             "map": [
                 {
                     "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-2\\files-2.1\\2a38911dfcd618f6f10b3261ee4a7ed5\\jetified-play-services-basement-17.1.0\\res\\values-sv\\values.xml",
