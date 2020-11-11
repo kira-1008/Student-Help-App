@@ -1,7 +1,15 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\ashis\\Desktop\\Student-Help-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+=======
+<<<<<<< Updated upstream
+            "outputFile": "C:\\Users\\asus\\Desktop\\Student-Help-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+=======
+            "outputFile": "C:\\Users\\ashis\\Desktop\\sstudent\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+>>>>>>> Stashed changes
+>>>>>>> pr/9
             "map": [
                 {
                     "source": "C:\\Users\\ashis\\.gradle\\caches\\transforms-2\\files-2.1\\18b63455f7cdf2e55499d904fd0b4a4d\\jetified-play-services-base-17.1.0\\res\\values-vi\\values.xml",

@@ -17,8 +17,8 @@
         <ImageView
             android:id="@+id/ItemImage"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:scaleType="fitXY"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
             app:srcCompat="@drawable/technex" />
 
         <TextView
