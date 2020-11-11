@@ -28,7 +28,6 @@ public class note extends AppCompatActivity {
         viewPager.setAdapter(sectionsPagerAdapter3);
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
-        FloatingActionButton fab = findViewById(R.id.fab);
 
     }
 }

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-66:12
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-67:12
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\ashis\.gradle\caches\transforms-2\files-2.1\1d0eb95b97a8fddba65ab3e5efd5654c\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\ashis\.gradle\caches\transforms-2\files-2.1\2069ecdbb2879ea2eb7c34a2fc468e00\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\ashis\.gradle\caches\transforms-2\files-2.1\92935bc99972b624ccf321ca9b63d471\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:2:1-11:12
@@ -78,20 +78,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ashis\.gradle\ca
 MERGED from [androidx.print:print:1.0.0] C:\Users\ashis\.gradle\caches\transforms-2\files-2.1\410f8a5d572e99627a02105a188dcc85\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ashis\.gradle\caches\transforms-2\files-2.1\1194b4176f690b6ad8f4bbafe658a3e2\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\ashis\.gradle\caches\transforms-2\files-2.1\d16c055fb911a7e235b9e6af8aa6e581\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-67:12
 	package
 		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-66:12
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-67:12
 		INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-66:12
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:1-67:12
 		INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:2:11-69
@@ -116,7 +116,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:
 	android:name
 		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:7:5-64:19
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:7:5-65:19
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\ashis\.gradle\caches\transforms-2\files-2.1\1d0eb95b97a8fddba65ab3e5efd5654c\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\ashis\.gradle\caches\transforms-2\files-2.1\1d0eb95b97a8fddba65ab3e5efd5654c\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.material:material:1.2.0] C:\Users\ashis\.gradle\caches\transforms-2\files-2.1\c169e045968aa05ca6c1c799e390a81f\material-1.2.0\AndroidManifest.xml:22:5-20
@@ -183,106 +183,110 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\as
 		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.studentshelpapp.ui.freshers.map
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:14:9-62
+	android:name
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:14:19-50
 activity#com.example.studentshelpapp.signup
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:14:9-53
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:15:9-44
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:14:19-41
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:15:19-41
 activity#com.example.studentshelpapp.login
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:15:9-52
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:16:9-43
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:15:19-40
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:16:19-40
 activity#com.example.studentshelpapp.Details
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:16:9-18:54
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:17:9-19:54
 	android:parentActivityName
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:18:13-51
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:19:13-51
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:18:13-36
 activity#com.example.studentshelpapp.MyAds
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:19:9-21:58
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:20:9-22:58
 	android:parentActivityName
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:21:13-55
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:22:13-55
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:20:13-34
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:21:13-34
 activity#com.example.studentshelpapp.Sell
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:22:9-24:58
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:23:9-25:58
 	android:parentActivityName
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:24:13-55
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:25:13-55
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:23:13-33
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:24:13-33
 activity#com.example.studentshelpapp.Purchase
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:25:9-27:58
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:26:9-28:58
 	android:parentActivityName
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:27:13-55
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:28:13-55
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:27:13-37
 activity#com.example.studentshelpapp.ui.notes.note
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:28:9-31:59
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:29:9-32:59
 	android:label
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:30:13-33
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:31:13-33
 	android:theme
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:31:13-56
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:32:13-56
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:29:13-42
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:30:13-42
 activity#com.example.studentshelpapp.ui.notes.book
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:32:9-35:59
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:33:9-36:59
 	android:label
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:34:13-33
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:35:13-33
 	android:theme
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:35:13-56
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:36:13-56
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:33:13-42
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:34:13-42
 activity#com.example.studentshelpapp.ui.freshers.fests
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:36:9-39:59
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:37:9-40:59
 	android:label
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:38:13-57
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:39:13-57
 	android:theme
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:39:13-56
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:37:13-46
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:38:13-46
 activity#com.example.studentshelpapp.ui.freshers.needs
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:40:9-43:59
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:41:9-44:59
 	android:label
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:42:13-57
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:43:13-57
 	android:theme
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:43:13-56
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:44:13-56
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:41:13-46
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:42:13-46
 activity#com.example.studentshelpapp.ui.freshers.foods
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:44:9-47:59
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:45:9-48:59
 	android:label
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:46:13-57
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:47:13-57
 	android:theme
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:47:13-56
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:48:13-56
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:45:13-46
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:46:13-46
 activity#com.example.studentshelpapp.MainActivity
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:48:9-50:46
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:49:9-51:46
 	android:launchMode
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:50:13-43
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:51:13-43
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:49:13-41
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:50:13-41
 activity#com.example.studentshelpapp.SplashActivity
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:51:9-59:20
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:52:9-60:20
 	android:theme
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:53:13-63
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:54:13-63
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:52:13-43
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:53:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:54:13-58:29
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:55:13-59:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:55:17-69
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:55:25-66
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:57:17-77
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:58:17-77
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:57:27-74
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:58:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:61:9-63:57
+ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:62:9-64:57
 	android:resource
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:63:13-54
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:64:13-54
 	android:name
-		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:62:13-43
+		ADDED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml:63:13-43
 uses-sdk
 INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ashis\Desktop\sstudent\app\src\main\AndroidManifest.xml

@@ -72,7 +72,8 @@ public class freshers extends Fragment {
     }
     public void openMap()
     {
-
+        Intent intent = new Intent(getActivity(), map.class);
+        startActivity(intent);
     }
     public void openNeed()
     {
