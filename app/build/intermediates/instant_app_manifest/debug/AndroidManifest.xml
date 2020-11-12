@@ -60,6 +60,14 @@
             android:label="@string/title_activity_foods"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name="com.example.studentshelpapp.ui.cpndev.cp"
+            android:label="@string/title_activity_foods"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.studentshelpapp.ui.cpndev.dev"
+            android:label="@string/title_activity_foods"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name="com.example.studentshelpapp.MainActivity"
             android:launchMode="singleTop" />
         <activity

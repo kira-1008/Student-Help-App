@@ -1574,6 +1574,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable basicneeds
+drawable book_cp
 drawable books1
 drawable brochure
 drawable btn_checkbox_checked_mtrl
@@ -1606,6 +1607,8 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable courses_cp
+drawable cp
 drawable cpndev
 drawable cpndevicon
 drawable cross
@@ -1617,6 +1620,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dev
 drawable email
 drawable error
 drawable festss
@@ -1647,6 +1651,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_other
 drawable ic_vehicle
+drawable judge_cp
 drawable ky
 drawable loading
 drawable map
@@ -1657,6 +1662,7 @@ drawable material_ic_keyboard_arrow_left_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable ml
 drawable more
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
@@ -1693,6 +1699,8 @@ drawable poster
 drawable purchasing
 drawable rectangular_field
 drawable refresher
+drawable resorces_dev
+drawable resources_cp
 drawable round
 drawable roundedcorner
 drawable sell
@@ -1703,6 +1711,9 @@ drawable styling
 drawable styling2
 drawable styling3
 drawable styling4
+drawable styling5
+drawable styling7
+drawable styling8
 drawable technex
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1847,6 +1858,7 @@ id content
 id contentPanel
 id coordinator
 id cos
+id cp_s
 id cross
 id custom
 id customPanel
@@ -1864,6 +1876,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id dev_s
 id dialog_button
 id dimensions
 id direct
@@ -2230,7 +2243,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_book
+layout activity_cp
 layout activity_details
+layout activity_dev
 layout activity_fests
 layout activity_foods
 layout activity_login
@@ -2246,9 +2261,11 @@ layout activity_splash
 layout app_bar_main
 layout book
 layout bookdesc
+layout books_cp
 layout buynsell
 layout content_main
 layout content_splash
+layout courses_cp
 layout cpndev
 layout custom_dialog
 layout customlayout
@@ -2256,6 +2273,9 @@ layout customlayout2
 layout customlayout3
 layout customlayout4
 layout customlayout5
+layout customlayout6
+layout customlayout7
+layout customlayout8
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -2283,6 +2303,7 @@ layout image_slider
 layout inside
 layout item
 layout item2
+layout judge_cp
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2334,6 +2355,8 @@ layout others
 layout outside
 layout pager_row
 layout pharmacy
+layout resources_cp
+layout resources_dev
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2494,12 +2517,16 @@ string search_menu_title
 string second_fragment_label
 string status_bar_notification_info_overflow
 string tab_text_1
+string tab_text_10
+string tab_text_11
 string tab_text_2
 string tab_text_3
 string tab_text_4
 string tab_text_5
 string tab_text_6
 string tab_text_7
+string tab_text_8
+string tab_text_9
 string title_activity_fests
 string title_activity_foods
 string title_activity_needs

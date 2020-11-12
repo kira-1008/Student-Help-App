@@ -47,6 +47,14 @@
             android:label="@string/title_activity_foods"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".ui.cpndev.cp"
+            android:label="@string/title_activity_foods"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.cpndev.dev"
+            android:label="@string/title_activity_foods"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:launchMode="singleTop" />
         <activity

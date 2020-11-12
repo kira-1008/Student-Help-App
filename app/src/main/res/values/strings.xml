@@ -27,6 +27,12 @@
     <string name="tab_text_5">Others</string>
     <string name="tab_text_6">Notes</string>
     <string name="tab_text_7">Books</string>
+    <string name="tab_text_8">Online Judge</string>
+    <string name="tab_text_9">Resources</string>
+    <string name="tab_text_10">Courses</string>
+    <string name="tab_text_11">Books</string>
+
+
 
     <string name="title_activity_needs">needs</string>
     <string name="title_activity_fests">fests</string>
