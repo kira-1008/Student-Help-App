@@ -19,9 +19,18 @@ public class courses_cp extends Fragment {
     ListView listView;
     String[] desc={"https://www.coursera.org/learn/algorithmic-toolbox/home/welcome",
     "https://www.udemy.com/course/datastructurescncpp/",
-    "https://www.edx.org/course/cs50s-introduction-to-computer-science"};
+    "https://www.edx.org/course/cs50s-introduction-to-computer-science",
+            "https://www.geeksforgeeks.org/",
+            "https://cp-algorithms.com/",
+            "https://codeforces.com/blog/entry/55274",
+            "https://codeforces.com/blog/entry/67679",
+            "https://www.tutorialspoint.com/graph_theory/graph_theory_fundamentals.htm",
+            "https://codeforces.com/blog/entry/23054",
+            "https://codeforces.com/blog/entry/77137"};
     String[] Name={"Algorithms : CourseEra","Data Structures : Udemy",
-            "Introduction to Computer Science : EDX"};
+            "Introduction to Computer Science : EDX","Geeks for Geeks ","Cp- Algorithms",
+            "Topic specific problems", "Everything about DP","Graph Theory" ,
+            "Everything about CP", "Number Theory"};
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
     {
         View view = inflater.inflate(R.layout.courses_cp, container, false);

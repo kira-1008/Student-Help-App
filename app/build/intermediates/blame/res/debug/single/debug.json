@@ -68,10 +68,6 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\drawable\\more.xml"
     },
     {
-        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_resources_cp.xml.flat",
-        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\layout\\resources_cp.xml"
-    },
-    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangular_field.xml.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\drawable\\rectangular_field.xml"
     },
@@ -106,6 +102,10 @@
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_freshersicon.xml.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\drawable\\freshersicon.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_outside.jpg.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\drawable\\outside.jpg"
     },
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_logo_round.png.flat",
@@ -268,6 +268,10 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
     },
     {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_inside.jpg.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\drawable\\inside.jpg"
+    },
+    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\font_amaranth.xml.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\font\\amaranth.xml"
     },
@@ -336,6 +340,10 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\drawable\\hndwrttennotes.jpg"
     },
     {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_night.jpg.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\drawable\\night.jpg"
+    },
+    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_logo_round.png.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\mipmap-xhdpi\\logo_round.png"
     },
@@ -392,6 +400,10 @@
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\layout\\customlayout7.xml"
     },
     {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_meds.jpg.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\drawable\\meds.jpg"
+    },
+    {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_item2.xml.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\layout\\item2.xml"
     },
@@ -446,6 +458,10 @@
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_book.xml.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\layout\\book.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_others.jpg.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\drawable\\others.jpg"
     },
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_needs.png.flat",
@@ -570,6 +586,10 @@
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
         "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stationary.jpg.flat",
+        "source": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\src\\main\\res\\drawable\\stationary.jpg"
     },
     {
         "merged": "C:\\Users\\ACER\\AndroidStudioProjects\\newclone\\Student-Help-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_inside.xml.flat",

@@ -3,23 +3,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <RelativeLayout
         android:id="@+id/rel"
-        android:layout_width="match_parent"
-        android:layout_height="103dp"
-        android:background="#ffffff"
+        android:layout_width="408dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.9"
+        android:background="@drawable/styling"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        android:background="#4E97D0"
 
         <TextView
             android:id="@+id/subject"
             android:layout_width="match_parent"
-            android:layout_height="81dp"
+            android:layout_height="60dp"
             android:layout_marginTop="5dp"
-            android:background="@drawable/roundedcorner"
+            android:gravity="bottom"
+            android:paddingLeft="8dp"
             android:textColor="#FFFFFF"
-            android:textSize="30dp"
+            android:textSize="25dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </RelativeLayout>

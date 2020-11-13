@@ -9,7 +9,7 @@
         android:layout_width="408dp"
         android:layout_height="106dp"
         android:layout_marginTop="20dp"
-        android:alpha="0.9"
+        android:alpha="0.95"
         android:background="@drawable/styling3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,8 +18,11 @@
         <TextView
             android:id="@+id/subject"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="63dp"
             android:layout_marginTop="15dp"
+            android:foregroundGravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
             android:textColor="#FFFFFF"
             android:textSize="25dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +31,9 @@
         <TextView
             android:id="@+id/link"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
-            android:layout_marginTop="60dp" />
+            android:layout_height="3dp"
+            android:layout_marginTop="90dp"
+            android:textColor="#FFFFFF"
+            android:textSize="1dp" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

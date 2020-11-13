@@ -42,7 +42,7 @@ public class pharmacy extends Fragment{
 
         @Override
         public View getView(int i, View view, ViewGroup viewGroup) {
-            view = getLayoutInflater().inflate(R.layout.customlayout2,null);
+            view = getLayoutInflater().inflate(R.layout.customlayout4,null);
             TextView restname_s = (TextView)view.findViewById(R.id.subject);
             restname_s.setText(Name[i]);
             return view;

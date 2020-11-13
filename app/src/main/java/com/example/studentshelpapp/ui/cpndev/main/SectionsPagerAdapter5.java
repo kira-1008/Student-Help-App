@@ -10,11 +10,8 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.example.studentshelpapp.R;
 import com.example.studentshelpapp.ui.cpndev.judge_cp;
-import com.example.studentshelpapp.ui.cpndev.resources_cp;
 import com.example.studentshelpapp.ui.cpndev.courses_cp;
 import com.example.studentshelpapp.ui.cpndev.books_cp;
-import com.example.studentshelpapp.ui.freshers.inside;
-import com.example.studentshelpapp.ui.freshers.outside;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -23,8 +20,7 @@ import com.example.studentshelpapp.ui.freshers.outside;
 public class SectionsPagerAdapter5 extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_8,
-            R.string.tab_text_9,R.string.tab_text_10,R.string.tab_text_11};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_8,R.string.tab_text_10,R.string.tab_text_11};
     private final Context mContext;
 
     public SectionsPagerAdapter5(Context context, FragmentManager fm) {
@@ -41,13 +37,13 @@ public class SectionsPagerAdapter5 extends FragmentPagerAdapter {
             case 0:
                 judge_cp Judge_cp = new judge_cp();
                 return Judge_cp;
+//            case 1:
+//                resources_cp resourcesCp = new resources_cp();
+//                return resourcesCp;
             case 1:
-                resources_cp resourcesCp = new resources_cp();
-                return resourcesCp;
-            case 2:
                 courses_cp coursesCp = new courses_cp();
                 return coursesCp;
-            case 3:
+            case 2:
                 books_cp booksCp = new books_cp();
                 return booksCp;
             default:
@@ -64,6 +60,6 @@ public class SectionsPagerAdapter5 extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // Show 2 total pages.
-        return 4;
+        return 3;
     }
 }

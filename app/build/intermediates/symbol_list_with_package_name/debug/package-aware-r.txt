@@ -1651,6 +1651,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_other
 drawable ic_vehicle
+drawable inside
 drawable judge_cp
 drawable ky
 drawable loading
@@ -1662,6 +1663,7 @@ drawable material_ic_keyboard_arrow_left_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable meds
 drawable ml
 drawable more
 drawable mtrl_dialog_background
@@ -1678,6 +1680,7 @@ drawable namecard
 drawable navigation_empty_icon
 drawable need
 drawable needs
+drawable night
 drawable noimage
 drawable notes
 drawable notesicon
@@ -1693,6 +1696,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable others
+drawable outside
 drawable pass
 drawable placeholder
 drawable poster
@@ -1706,6 +1711,7 @@ drawable roundedcorner
 drawable sell
 drawable side_nav_bar
 drawable spardha
+drawable stationary
 drawable sticker
 drawable styling
 drawable styling2
@@ -2355,7 +2361,6 @@ layout others
 layout outside
 layout pager_row
 layout pharmacy
-layout resources_cp
 layout resources_dev
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
