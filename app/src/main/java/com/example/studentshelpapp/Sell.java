@@ -216,8 +216,12 @@ public class Sell extends AppCompatActivity implements UploadListAdapter.OnCross
 
         }
         else
+        {   if(contact.length()!=10)
         {
-            Toast.makeText(getApplicationContext(),"Incomplete or incorrect information",Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Enter valid contact number",Toast.LENGTH_SHORT).show();
+        }
+        else
+        { Toast.makeText(getApplicationContext(),"Incomplete or incorrect information",Toast.LENGTH_LONG).show();}
         }
 
 
